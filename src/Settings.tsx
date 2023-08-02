@@ -1,4 +1,4 @@
-import { components, plugins } from "replugged";
+import { components } from "replugged";
 import { cfg } from ".";
 
 import themes from "./themes.json";
@@ -33,9 +33,7 @@ export function Settings(): React.ReactElement {
 
           const themeStylesheet = document.getElementById("hljs-theme") as HTMLLinkElement;
           if (themeStylesheet)
-            themeStylesheet.href = `replugged://plugin/${
-              plugins.plugins.get("dev.kingfish.BetterCodeblocks")!.path
-            }/themes/${theme}.min.css`;
+            themeStylesheet.href = `https://cdn.jsdelivr.net/gh/qwerty-mods/better-codeblocks@master/src/themes/${theme}.min.css`;
         }}
         isSelected={(theme) => cfg.get("theme") === theme}>
         Preferred Theme
