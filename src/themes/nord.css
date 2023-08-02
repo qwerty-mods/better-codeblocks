@@ -1,0 +1,309 @@
+/*
+ * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2017-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord highlight.js
+ * Version:    0.1.0
+ * Repository: https://github.com/arcticicestudio/nord-highlightjs
+ * License:    MIT
+ * References:
+ *   https://github.com/arcticicestudio/nord
+ */
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #2E3440;
+}
+
+.better-codeblocks .hljs,
+.better-codeblocks .hljs-subst {
+  color: #D8DEE9;
+}
+
+.better-codeblocks .hljs-selector-tag {
+  color: #81A1C1;
+}
+
+.better-codeblocks .hljs-selector-id {
+  color: #8FBCBB;
+  font-weight: bold;
+}
+
+.better-codeblocks .hljs-selector-class {
+  color: #8FBCBB;
+}
+
+.better-codeblocks .hljs-selector-attr {
+  color: #8FBCBB;
+}
+
+.better-codeblocks .hljs-selector-pseudo {
+  color: #88C0D0;
+}
+
+.better-codeblocks .hljs-addition {
+  background-color: rgba(163, 190, 140, 0.5);
+}
+
+.better-codeblocks .hljs-deletion {
+  background-color: rgba(191, 97, 106, 0.5);
+}
+
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-type {
+  color: #8FBCBB;
+}
+
+.better-codeblocks .hljs-class {
+  color: #8FBCBB;
+}
+
+.better-codeblocks .hljs-function {
+  color: #88C0D0;
+}
+
+.better-codeblocks .hljs-function > .better-codeblocks .hljs-title {
+  color: #88C0D0;
+}
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-symbol {
+  color: #81A1C1;
+}
+
+.better-codeblocks .hljs-number {
+  color: #B48EAD;
+}
+
+.better-codeblocks .hljs-regexp {
+  color: #EBCB8B;
+}
+
+.better-codeblocks .hljs-string {
+  color: #A3BE8C;
+}
+
+.better-codeblocks .hljs-title {
+  color: #8FBCBB;
+}
+
+.better-codeblocks .hljs-params {
+  color: #D8DEE9;
+}
+
+.better-codeblocks .hljs-bullet {
+  color: #81A1C1;
+}
+
+.better-codeblocks .hljs-code {
+  color: #8FBCBB;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-formula {
+  color: #8FBCBB;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}
+
+.better-codeblocks .hljs-link:hover {
+  text-decoration: underline;
+}
+
+.better-codeblocks .hljs-quote {
+  color: #4C566A;
+}
+
+.better-codeblocks .hljs-comment {
+  color: #4C566A;
+}
+
+.better-codeblocks .hljs-doctag {
+  color: #8FBCBB;
+}
+
+.better-codeblocks .hljs-meta,
+.better-codeblocks .hljs-meta-keyword {
+  color: #5E81AC;
+}
+
+.better-codeblocks .hljs-meta-string {
+  color: #A3BE8C;
+}
+
+.better-codeblocks .hljs-attr {
+  color: #8FBCBB;
+}
+
+.better-codeblocks .hljs-attribute {
+  color: #D8DEE9;
+}
+
+.better-codeblocks .hljs-builtin-name {
+  color: #81A1C1;
+}
+
+.better-codeblocks .hljs-name {
+  color: #81A1C1;
+}
+
+.better-codeblocks .hljs-section {
+  color: #88C0D0;
+}
+
+.better-codeblocks .hljs-tag {
+  color: #81A1C1;
+}
+
+.better-codeblocks .hljs-variable {
+  color: #D8DEE9;
+}
+
+.better-codeblocks .hljs-template-variable {
+  color: #D8DEE9;
+}
+
+.better-codeblocks .hljs-template-tag {
+  color: #5E81AC;
+}
+
+.abnf .better-codeblocks .hljs-attribute {
+  color: #88C0D0;
+}
+
+.abnf .better-codeblocks .hljs-symbol {
+  color: #EBCB8B;
+}
+
+.apache .better-codeblocks .hljs-attribute {
+  color: #88C0D0;
+}
+
+.apache .better-codeblocks .hljs-section {
+  color: #81A1C1;
+}
+
+.arduino .better-codeblocks .hljs-built_in {
+  color: #88C0D0;
+}
+
+.aspectj .better-codeblocks .hljs-meta {
+  color: #D08770;
+}
+
+.aspectj > .better-codeblocks .hljs-title {
+  color: #88C0D0;
+}
+
+.bnf .better-codeblocks .hljs-attribute {
+  color: #8FBCBB;
+}
+
+.clojure .better-codeblocks .hljs-name {
+  color: #88C0D0;
+}
+
+.clojure .better-codeblocks .hljs-symbol {
+  color: #EBCB8B;
+}
+
+.coq .better-codeblocks .hljs-built_in {
+  color: #88C0D0;
+}
+
+.cpp .better-codeblocks .hljs-meta-string {
+  color: #8FBCBB;
+}
+
+.css .better-codeblocks .hljs-built_in {
+  color: #88C0D0;
+}
+
+.css .better-codeblocks .hljs-keyword {
+  color: #D08770;
+}
+
+.diff .better-codeblocks .hljs-meta {
+  color: #8FBCBB;
+}
+
+.ebnf .better-codeblocks .hljs-attribute {
+  color: #8FBCBB;
+}
+
+.glsl .better-codeblocks .hljs-built_in {
+  color: #88C0D0;
+}
+
+.groovy .better-codeblocks .hljs-meta:not(:first-child) {
+  color: #D08770;
+}
+
+.haxe .better-codeblocks .hljs-meta {
+  color: #D08770;
+}
+
+.java .better-codeblocks .hljs-meta {
+  color: #D08770;
+}
+
+.ldif .better-codeblocks .hljs-attribute {
+  color: #8FBCBB;
+}
+
+.lisp .better-codeblocks .hljs-name {
+  color: #88C0D0;
+}
+
+.lua .better-codeblocks .hljs-built_in {
+  color: #88C0D0;
+}
+
+.moonscript .better-codeblocks .hljs-built_in {
+  color: #88C0D0;
+}
+
+.nginx .better-codeblocks .hljs-attribute {
+  color: #88C0D0;
+}
+
+.nginx .better-codeblocks .hljs-section {
+  color: #5E81AC;
+}
+
+.pf .better-codeblocks .hljs-built_in {
+  color: #88C0D0;
+}
+
+.processing .better-codeblocks .hljs-built_in {
+  color: #88C0D0;
+}
+
+.scss .better-codeblocks .hljs-keyword {
+  color: #81A1C1;
+}
+
+.stylus .better-codeblocks .hljs-keyword {
+  color: #81A1C1;
+}
+
+.swift .better-codeblocks .hljs-meta {
+  color: #D08770;
+}
+
+.vim .better-codeblocks .hljs-built_in {
+  color: #88C0D0;
+  font-style: italic;
+}
+
+.yaml .better-codeblocks .hljs-meta {
+  color: #D08770;
+}

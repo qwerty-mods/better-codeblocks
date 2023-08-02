@@ -1,0 +1,113 @@
+/* Base16 Atelier Plateau Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Plateau Comment */
+.better-codeblocks .hljs-comment {
+  color: #655d5d;
+}
+
+/* Atelier-Plateau Red */
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-tag,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-name,
+.ruby .better-codeblocks .hljs-constant,
+.xml .better-codeblocks .hljs-tag .better-codeblocks .hljs-title,
+.xml .better-codeblocks .hljs-pi,
+.xml .better-codeblocks .hljs-doctype,
+.html .better-codeblocks .hljs-doctype,
+.css .better-codeblocks .hljs-id,
+.css .better-codeblocks .hljs-class,
+.css .better-codeblocks .hljs-pseudo {
+  color: #ca4949;
+}
+
+/* Atelier-Plateau Orange */
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-preprocessor,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-params,
+.better-codeblocks .hljs-constant {
+  color: #b45a3c;
+}
+
+/* Atelier-Plateau Yellow */
+.ruby .better-codeblocks .hljs-class .better-codeblocks .hljs-title,
+.css .better-codeblocks .hljs-rule .better-codeblocks .hljs-attribute {
+  color: #a06e3b;
+}
+
+/* Atelier-Plateau Green */
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-value,
+.better-codeblocks .hljs-inheritance,
+.better-codeblocks .hljs-header,
+.ruby .better-codeblocks .hljs-symbol,
+.xml .better-codeblocks .hljs-cdata {
+  color: #4b8b8b;
+}
+
+/* Atelier-Plateau Aqua */
+.better-codeblocks .hljs-title,
+.css .better-codeblocks .hljs-hexcolor {
+  color: #5485b6;
+}
+
+/* Atelier-Plateau Blue */
+.better-codeblocks .hljs-function,
+.python .better-codeblocks .hljs-decorator,
+.python .better-codeblocks .hljs-title,
+.ruby .better-codeblocks .hljs-function .better-codeblocks .hljs-title,
+.ruby .better-codeblocks .hljs-title .better-codeblocks .hljs-keyword,
+.perl .better-codeblocks .hljs-sub,
+.javascript .better-codeblocks .hljs-title,
+.coffeescript .better-codeblocks .hljs-title {
+  color: #7272ca;
+}
+
+/* Atelier-Plateau Purple */
+.better-codeblocks .hljs-keyword,
+.javascript .better-codeblocks .hljs-function {
+  color: #8464c4;
+}
+
+.diff .better-codeblocks .hljs-deletion,
+.diff .better-codeblocks .hljs-addition {
+  color: #1b1818;
+  display: inline-block;
+  width: 100%;
+}
+
+.diff .better-codeblocks .hljs-deletion {
+  background-color: #ca4949;
+}
+
+.diff .better-codeblocks .hljs-addition {
+  background-color: #4b8b8b;
+}
+
+.diff .better-codeblocks .hljs-change {
+  color: #7272ca;
+}
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  background: #f4ecec;
+  color: #585050;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .better-codeblocks .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .better-codeblocks .hljs-cdata {
+  opacity: 0.5;
+}

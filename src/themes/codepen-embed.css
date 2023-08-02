@@ -1,0 +1,60 @@
+/*
+  codepen.io Embed Theme
+  Author: Justin Perry <http://github.com/ourmaninamsterdam>
+  Original theme - https://github.com/chriskempson/tomorrow-theme
+*/
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222;
+  color: #fff;
+}
+
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote {
+  color: #777;
+}
+
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-tag,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-meta,
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-builtin-name,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-params,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-link,
+.better-codeblocks .hljs-deletion {
+  color: #ab875d;
+}
+
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-attribute {
+  color: #9b869b;
+}
+
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-addition {
+  color: #8f9c6c;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}

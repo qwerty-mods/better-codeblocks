@@ -1,0 +1,75 @@
+/* Tomorrow Night Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote {
+  color: #969896;
+}
+
+/* Tomorrow Red */
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-tag,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-deletion {
+  color: #cc6666;
+}
+
+/* Tomorrow Orange */
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-builtin-name,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-params,
+.better-codeblocks .hljs-meta,
+.better-codeblocks .hljs-link {
+  color: #de935f;
+}
+
+/* Tomorrow Yellow */
+.better-codeblocks .hljs-attribute {
+  color: #f0c674;
+}
+
+/* Tomorrow Green */
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-addition {
+  color: #b5bd68;
+}
+
+/* Tomorrow Blue */
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-section {
+  color: #81a2be;
+}
+
+/* Tomorrow Purple */
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag {
+  color: #b294bb;
+}
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  background: #1d1f21;
+  color: #c5c8c6;
+  padding: 0.5em;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}

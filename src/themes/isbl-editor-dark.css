@@ -1,0 +1,112 @@
+/*
+
+ISBL Editor style dark color scheme (c) Dmitriy Tarasov <dimatar@gmail.com>
+
+*/
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #404040;
+  color: #f0f0f0;
+}
+
+/* Base color: saturation 0; */
+
+.better-codeblocks .hljs,
+.better-codeblocks .hljs-subst {
+  color: #f0f0f0;
+}
+
+.better-codeblocks .hljs-comment {
+  color: #b5b5b5;
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-meta-keyword,
+.better-codeblocks .hljs-doctag,
+.better-codeblocks .hljs-name {
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+.better-codeblocks .hljs-string {
+  color: #97bf0d;
+}
+
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class,
+.better-codeblocks .hljs-quote,
+.better-codeblocks .hljs-template-tag,
+.better-codeblocks .hljs-deletion {
+  color: #f0f0f0;
+}
+
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-section {
+  color: #df471e;
+}
+
+.better-codeblocks .hljs-title>.better-codeblocks .hljs-built_in {
+  color: #81bce9;
+  font-weight: normal;
+}
+
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-link,
+.better-codeblocks .hljs-selector-attr,
+.better-codeblocks .hljs-selector-pseudo {
+  color: #e2c696;
+}
+
+/* Language color: hue: 90; */
+
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-literal {
+  color: #97bf0d;
+  font-weight: bold;
+}
+
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-code,
+.better-codeblocks .hljs-addition {
+  color: #397300;
+}
+
+.better-codeblocks .hljs-class  {
+  color: #ce9d4d;
+  font-weight: bold;
+}
+
+/* Meta color: hue: 200 */
+
+.better-codeblocks .hljs-meta {
+  color: #1f7199;
+}
+
+.better-codeblocks .hljs-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}

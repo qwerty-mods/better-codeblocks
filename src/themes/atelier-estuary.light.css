@@ -1,0 +1,113 @@
+/* Base16 Atelier Estuary Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Estuary Comment */
+.better-codeblocks .hljs-comment {
+  color: #6c6b5a;
+}
+
+/* Atelier-Estuary Red */
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-tag,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-name,
+.ruby .better-codeblocks .hljs-constant,
+.xml .better-codeblocks .hljs-tag .better-codeblocks .hljs-title,
+.xml .better-codeblocks .hljs-pi,
+.xml .better-codeblocks .hljs-doctype,
+.html .better-codeblocks .hljs-doctype,
+.css .better-codeblocks .hljs-id,
+.css .better-codeblocks .hljs-class,
+.css .better-codeblocks .hljs-pseudo {
+  color: #ba6236;
+}
+
+/* Atelier-Estuary Orange */
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-preprocessor,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-params,
+.better-codeblocks .hljs-constant {
+  color: #ae7313;
+}
+
+/* Atelier-Estuary Yellow */
+.ruby .better-codeblocks .hljs-class .better-codeblocks .hljs-title,
+.css .better-codeblocks .hljs-rule .better-codeblocks .hljs-attribute {
+  color: #a5980d;
+}
+
+/* Atelier-Estuary Green */
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-value,
+.better-codeblocks .hljs-inheritance,
+.better-codeblocks .hljs-header,
+.ruby .better-codeblocks .hljs-symbol,
+.xml .better-codeblocks .hljs-cdata {
+  color: #7d9726;
+}
+
+/* Atelier-Estuary Aqua */
+.better-codeblocks .hljs-title,
+.css .better-codeblocks .hljs-hexcolor {
+  color: #5b9d48;
+}
+
+/* Atelier-Estuary Blue */
+.better-codeblocks .hljs-function,
+.python .better-codeblocks .hljs-decorator,
+.python .better-codeblocks .hljs-title,
+.ruby .better-codeblocks .hljs-function .better-codeblocks .hljs-title,
+.ruby .better-codeblocks .hljs-title .better-codeblocks .hljs-keyword,
+.perl .better-codeblocks .hljs-sub,
+.javascript .better-codeblocks .hljs-title,
+.coffeescript .better-codeblocks .hljs-title {
+  color: #36a166;
+}
+
+/* Atelier-Estuary Purple */
+.better-codeblocks .hljs-keyword,
+.javascript .better-codeblocks .hljs-function {
+  color: #5f9182;
+}
+
+.diff .better-codeblocks .hljs-deletion,
+.diff .better-codeblocks .hljs-addition {
+  color: #22221b;
+  display: inline-block;
+  width: 100%;
+}
+
+.diff .better-codeblocks .hljs-deletion {
+  background-color: #ba6236;
+}
+
+.diff .better-codeblocks .hljs-addition {
+  background-color: #7d9726;
+}
+
+.diff .better-codeblocks .hljs-change {
+  color: #36a166;
+}
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  background: #f4f3ec;
+  color: #5f5e4e;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .better-codeblocks .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .better-codeblocks .hljs-cdata {
+  opacity: 0.5;
+}

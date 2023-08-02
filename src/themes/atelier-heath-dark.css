@@ -1,0 +1,69 @@
+/* Base16 Atelier Heath Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Heath Comment */
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote {
+  color: #9e8f9e;
+}
+
+/* Atelier-Heath Red */
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-tag,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-link,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class {
+  color: #ca402b;
+}
+
+/* Atelier-Heath Orange */
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-meta,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-builtin-name,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-params {
+  color: #a65926;
+}
+
+/* Atelier-Heath Green */
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet {
+  color: #918b3b;
+}
+
+/* Atelier-Heath Blue */
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-section {
+  color: #516aec;
+}
+
+/* Atelier-Heath Purple */
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag {
+  color: #7b59c0;
+}
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  background: #1b181b;
+  color: #ab9bab;
+  padding: 0.5em;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}

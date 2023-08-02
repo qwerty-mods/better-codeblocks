@@ -1,0 +1,102 @@
+/*
+
+vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
+
+*/
+
+/*background color*/
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #1d1f21;
+}
+
+/*selection color*/
+.better-codeblocks .hljs::selection,
+.better-codeblocks span::selection {
+  background: #373b41;
+}
+
+.better-codeblocks .hljs::-moz-selection,
+.better-codeblocks span::-moz-selection {
+  background: #373b41;
+}
+
+/*foreground color*/
+.better-codeblocks {
+  color: #c5c8c6;
+}
+
+/*color: fg_yellow*/
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-name {
+  color: #f0c674;
+}
+
+/*color: fg_comment*/
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-meta,
+.better-codeblocks .hljs-meta .better-codeblocks .hljs-keyword {
+  color: #707880;
+}
+
+/*color: fg_red*/
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-deletion,
+.better-codeblocks .hljs-link {
+ color: #cc6666
+}
+
+/*color: fg_green*/
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-doctag,
+.better-codeblocks .hljs-addition,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-selector-attr,
+.better-codeblocks .hljs-selector-pseudo {
+  color: #b5bd68;
+}
+
+/*color: fg_purple*/
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-code,
+.better-codeblocks .hljs-selector-id {
+ color: #b294bb;
+}
+
+/*color: fg_blue*/
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-tag {
+ color: #81a2be;
+}
+
+/*color: fg_aqua*/
+.better-codeblocks .hljs-subst,
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-tag,
+.better-codeblocks .hljs-template-variable {
+  color: #8abeb7;
+}
+
+/*color: fg_orange*/
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-builtin-name,
+.better-codeblocks .hljs-quote,
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-selector-class {
+  color: #de935f;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}

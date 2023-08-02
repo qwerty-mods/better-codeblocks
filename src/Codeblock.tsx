@@ -67,7 +67,7 @@ export default function (props: { lang: string; code: string }): JSX.Element {
   }
 
   return (
-    <pre className="better-codeblocks" style={{ backgroundColor: "var(--background-secondary)" }}>
+    <pre className="better-codeblocks">
       <code>
         {langName && (
           <div className="better-codeblocks-lang">

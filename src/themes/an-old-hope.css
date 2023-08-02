@@ -1,0 +1,89 @@
+/* 
+
+An Old Hope – Star Wars Syntax (c) Gustavo Costa <gusbemacbe@gmail.com>
+Original theme - Ocean Dark Theme – by https://github.com/gavsiu
+Based on Jesse Leite's Atom syntax theme 'An Old Hope' – https://github.com/JesseLeite/an-old-hope-syntax-atom
+
+*/
+
+/* Death Star Comment */
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote 
+{
+  color: #B6B18B;
+}
+
+/* Darth Vader */
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-tag,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-deletion 
+{
+  color: #EB3C54;
+}
+
+/* Threepio */
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-builtin-name,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-params,
+.better-codeblocks .hljs-meta,
+.better-codeblocks .hljs-link 
+{
+  color: #E7CE56;
+}
+
+/* Luke Skywalker */
+.better-codeblocks .hljs-attribute 
+{
+  color: #EE7C2B;
+}
+
+/* Obi Wan Kenobi */
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-addition 
+{
+  color: #4FB4D7;
+}
+
+/* Yoda */
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-section 
+{
+  color: #78BB65;
+}
+
+/* Mace Windu */
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag 
+{
+  color: #B45EA4;
+}
+
+/* Millenium Falcon */
+.better-codeblocks 
+{
+  display: block;
+  overflow-x: auto;
+  background: #1C1D21;
+  color: #c0c5ce;
+  padding: 0.5em;
+}
+
+.better-codeblocks .hljs-emphasis 
+{
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong 
+{
+  font-weight: bold;
+}

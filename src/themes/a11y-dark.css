@@ -1,0 +1,99 @@
+/* a11y-dark theme */
+/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
+/* @author: ericwbailey */
+
+/* Comment */
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote {
+  color: #d4d0ab;
+}
+
+/* Red */
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-tag,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-deletion {
+  color: #ffa07a;
+}
+
+/* Orange */
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-builtin-name,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-params,
+.better-codeblocks .hljs-meta,
+.better-codeblocks .hljs-link {
+  color: #f5ab35;
+}
+
+/* Yellow */
+.better-codeblocks .hljs-attribute {
+  color: #ffd700;
+}
+
+/* Green */
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-addition {
+  color: #abe338;
+}
+
+/* Blue */
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-section {
+  color: #00e0e0;
+}
+
+/* Purple */
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag {
+  color: #dcc6e0;
+}
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  background: #2b2b2b;
+  color: #f8f8f2;
+  padding: 0.5em;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .better-codeblocks .hljs-addition,
+  .better-codeblocks .hljs-attribute,
+  .better-codeblocks .hljs-built_in,
+  .better-codeblocks .hljs-builtin-name,
+  .better-codeblocks .hljs-bullet,
+  .better-codeblocks .hljs-comment,
+  .better-codeblocks .hljs-link,
+  .better-codeblocks .hljs-literal,
+  .better-codeblocks .hljs-meta,
+  .better-codeblocks .hljs-number,
+  .better-codeblocks .hljs-params,
+  .better-codeblocks .hljs-string,
+  .better-codeblocks .hljs-symbol,
+  .better-codeblocks .hljs-type,
+  .better-codeblocks .hljs-quote {
+        color: highlight;
+    }
+
+    .better-codeblocks .hljs-keyword,
+    .better-codeblocks .hljs-selector-tag {
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,89 @@
+/*
+
+Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
+
+*/
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote {
+  color: #800;
+}
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-name {
+  color: #008;
+}
+
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable {
+  color: #660;
+}
+
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-selector-attr,
+.better-codeblocks .hljs-selector-pseudo,
+.better-codeblocks .hljs-regexp {
+  color: #080;
+}
+
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-meta,
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-link {
+  color: #066;
+}
+
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-doctag,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-attr,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-builtin-name,
+.better-codeblocks .hljs-params {
+  color: #606;
+}
+
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-subst {
+  color: #000;
+}
+
+.better-codeblocks .hljs-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class {
+  color: #9B703F
+}
+
+.better-codeblocks .hljs-addition {
+  background-color: #baeeba;
+}
+
+.better-codeblocks .hljs-deletion {
+  background-color: #ffc8bd;
+}
+
+.better-codeblocks .hljs-doctag,
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}

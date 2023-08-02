@@ -1,0 +1,66 @@
+/*
+Date: 24 Fev 2015
+Author: Pedro Oliveira <kanytu@gmail . com>
+*/
+
+.better-codeblocks {
+  color: #a9b7c6;
+  background: #282b2e;
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+}
+
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet {
+  color: #6897BB;
+}
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-deletion {
+  color: #cc7832;
+}
+
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-link {
+  color: #629755;
+}
+
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote {
+  color: #808080;
+}
+
+.better-codeblocks .hljs-meta {
+  color: #bbb529;
+}
+
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-addition {
+  color: #6A8759;
+}
+
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-type {
+  color: #ffc66d;
+}
+
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class {
+  color: #e8bf6a;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}

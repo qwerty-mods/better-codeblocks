@@ -1,0 +1,80 @@
+/*
+
+Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
+based on dark.css by Ivan Sagalaev
+
+*/
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #3f3f3f;
+  color: #dcdcdc;
+}
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-tag {
+  color: #e3ceab;
+}
+
+.better-codeblocks .hljs-template-tag {
+  color: #dcdcdc;
+}
+
+.better-codeblocks .hljs-number {
+  color: #8cd0d3;
+}
+
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-attribute {
+  color: #efdcbc;
+}
+
+.better-codeblocks .hljs-literal {
+  color: #efefaf;
+}
+
+.better-codeblocks .hljs-subst {
+  color: #8f8f8f;
+}
+
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class,
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-type {
+  color: #efef8f;
+}
+
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-link {
+  color: #dca3a3;
+}
+
+.better-codeblocks .hljs-deletion,
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-builtin-name {
+  color: #cc9393;
+}
+
+.better-codeblocks .hljs-addition,
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote,
+.better-codeblocks .hljs-meta {
+  color: #7f9f7f;
+}
+
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}

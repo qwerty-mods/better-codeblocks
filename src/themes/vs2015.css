@@ -1,0 +1,115 @@
+/*
+ * Visual Studio 2015 dark style
+ * Author: Nicolas LLOBERA <nllobera@gmail.com>
+ */
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #1E1E1E;
+  color: #DCDCDC;
+}
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-name {
+  color: #569CD6;
+}
+.better-codeblocks .hljs-link {
+  color: #569CD6;
+  text-decoration: underline;
+}
+
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-type {
+  color: #4EC9B0;
+}
+
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-class {
+  color: #B8D7A3;
+}
+
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-meta-string {
+  color: #D69D85;
+}
+
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-template-tag {
+  color: #9A5334;
+}
+
+.better-codeblocks .hljs-subst,
+.better-codeblocks .hljs-function,
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-params,
+.better-codeblocks .hljs-formula {
+  color: #DCDCDC;
+}
+
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote {
+  color: #57A64A;
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-doctag {
+  color: #608B4E;
+}
+
+.better-codeblocks .hljs-meta,
+.better-codeblocks .hljs-meta-keyword,
+.better-codeblocks .hljs-tag {
+  color: #9B9B9B;
+}
+
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable {
+  color: #BD63C5;
+}
+
+.better-codeblocks .hljs-attr,
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-builtin-name {
+  color: #9CDCFE;
+}
+
+.better-codeblocks .hljs-section {
+  color: gold;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}
+
+/*.better-codeblocks .hljs-code {
+  font-family:'Monospace';
+}*/
+
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class,
+.better-codeblocks .hljs-selector-attr,
+.better-codeblocks .hljs-selector-pseudo {
+  color: #D7BA7D;
+}
+
+.better-codeblocks .hljs-addition {
+  background-color: #144212;
+  display: inline-block;
+  width: 100%;
+}
+
+.better-codeblocks .hljs-deletion {
+  background-color: #600;
+  display: inline-block;
+  width: 100%;
+}

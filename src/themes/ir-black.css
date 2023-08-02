@@ -1,0 +1,73 @@
+/*
+  IR_Black style (c) Vasily Mikhailitchenko <vaskas@programica.ru>
+*/
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000;
+  color: #f8f8f8;
+}
+
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote,
+.better-codeblocks .hljs-meta {
+  color: #7c7c7c;
+}
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-tag,
+.better-codeblocks .hljs-name {
+  color: #96cbfe;
+}
+
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-selector-id {
+  color: #ffffb6;
+}
+
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-selector-attr,
+.better-codeblocks .hljs-selector-pseudo,
+.better-codeblocks .hljs-addition {
+  color: #a8ff60;
+}
+
+.better-codeblocks .hljs-subst {
+  color: #daefa3;
+}
+
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-link {
+  color: #e9c062;
+}
+
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-doctag {
+  color: #ffffb6;
+}
+
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-literal {
+  color: #c6c5fe;
+}
+
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-deletion {
+  color:#ff73fd;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}

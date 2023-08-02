@@ -1,4 +1,4 @@
-import { Injector, Logger, common, components } from "replugged";
+import { Injector, common, components, settings } from "replugged";
 import Codeblock from "./Codeblock";
 
 const { parser, React } = common;
@@ -6,9 +6,22 @@ const { ErrorBoundary } = components;
 
 import "./index.css";
 
+export { Settings } from "./Settings";
+
 const injector = new Injector();
 
+export interface SettingsType {
+  theme: string;
+}
+export const cfg = await settings.init<SettingsType>("dev.kingfish.BetterCodeblocks", { theme: "vs2015" });
+
 export function start(): void {
+  const themeStylesheet = document.createElement("link");
+  themeStylesheet.rel = "stylesheet";
+  themeStylesheet.id = "hljs-theme";
+  themeStylesheet.href = `replugged://plugin/dev.kingfish.BetterCodeblocks/themes/${cfg.get("theme")}.css`;
+  document.head.appendChild(themeStylesheet);
+
   injector.after(parser.defaultRules.codeBlock, "react", (args, _) => {
     const { lang, content: code } = args[0] as { lang: string; content: string };
 
@@ -24,5 +37,7 @@ export function start(): void {
 }
 
 export function stop(): void {
+  document.getElementById("hljs-theme")?.remove();
+  
   injector.uninjectAll();
 }

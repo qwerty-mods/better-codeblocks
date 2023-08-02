@@ -1,0 +1,96 @@
+/*
+
+Atom One Light by Daniel Gamage
+Original One Light Syntax theme from https://github.com/atom/one-light-syntax
+
+base:    #fafafa
+mono-1:  #383a42
+mono-2:  #686b77
+mono-3:  #a0a1a7
+hue-1:   #0184bb
+hue-2:   #4078f2
+hue-3:   #a626a4
+hue-4:   #50a14f
+hue-5:   #e45649
+hue-5-2: #c91243
+hue-6:   #986801
+hue-6-2: #c18401
+
+*/
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #383a42;
+  background: #fafafa;
+}
+
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote {
+  color: #a0a1a7;
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-doctag,
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-formula {
+  color: #a626a4;
+}
+
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-deletion,
+.better-codeblocks .hljs-subst {
+  color: #e45649;
+}
+
+.better-codeblocks .hljs-literal {
+  color: #0184bb;
+}
+
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-addition,
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-meta-string {
+  color: #50a14f;
+}
+
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-class .better-codeblocks .hljs-title {
+  color: #c18401;
+}
+
+.better-codeblocks .hljs-attr,
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-selector-class,
+.better-codeblocks .hljs-selector-attr,
+.better-codeblocks .hljs-selector-pseudo,
+.better-codeblocks .hljs-number {
+  color: #986801;
+}
+
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-link,
+.better-codeblocks .hljs-meta,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-title {
+  color: #4078f2;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}
+
+.better-codeblocks .hljs-link {
+  text-decoration: underline;
+}

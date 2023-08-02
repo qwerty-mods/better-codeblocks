@@ -1,0 +1,68 @@
+/*
+
+Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
+
+*/
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote,
+.better-codeblocks .hljs-variable {
+  color: #008000;
+}
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-tag {
+  color: #00f;
+}
+
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-template-tag,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-addition {
+  color: #a31515;
+}
+
+.better-codeblocks .hljs-deletion,
+.better-codeblocks .hljs-selector-attr,
+.better-codeblocks .hljs-selector-pseudo,
+.better-codeblocks .hljs-meta {
+  color: #2b91af;
+}
+
+.better-codeblocks .hljs-doctag {
+  color: #808080;
+}
+
+.better-codeblocks .hljs-attr {
+  color: #f00;
+}
+
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-link {
+  color: #00b0e8;
+}
+
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}

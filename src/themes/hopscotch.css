@@ -1,0 +1,83 @@
+/*
+ * Hopscotch
+ * by Jan T. Sott
+ * https://github.com/idleberg/Hopscotch
+ *
+ * This work is licensed under the Creative Commons CC0 1.0 Universal License
+ */
+
+/* Comment */
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote {
+  color: #989498;
+}
+
+/* Red */
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-tag,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-link,
+.better-codeblocks .hljs-deletion {
+  color: #dd464c;
+}
+
+/* Orange */
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-builtin-name,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-params {
+  color: #fd8b19;
+}
+
+/* Yellow */
+.better-codeblocks .hljs-class .better-codeblocks .hljs-title {
+  color: #fdcc59;
+}
+
+/* Green */
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-addition {
+  color: #8fc13e;
+}
+
+/* Aqua */
+.better-codeblocks .hljs-meta {
+  color: #149b93;
+}
+
+/* Blue */
+.better-codeblocks .hljs-function,
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-title {
+  color: #1290bf;
+}
+
+/* Purple */
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag {
+  color: #c85e7c;
+}
+
+.better-codeblocks {
+  display: block;
+  background: #322931;
+  color: #b9b5b8;
+  padding: 0.5em;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}

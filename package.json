@@ -1,6 +1,6 @@
 {
   "name": "better-codeblocks",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Improves the codeblocks",
   "engines": {
     "node": ">=18.0.0",

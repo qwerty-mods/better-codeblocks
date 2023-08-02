@@ -1,0 +1,79 @@
+/**
+ * GitHub Gist Theme
+ * Author : Anthony Attard - https://github.com/AnthonyAttard
+ * Author : Louis Barranqueiro - https://github.com/LouisBarranqueiro
+ */
+
+.better-codeblocks {
+  display: block;
+  background: white;
+  padding: 0.5em;
+  color: #333333;
+  overflow-x: auto;
+}
+
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-meta {
+  color: #969896;
+}
+
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-strong,
+.better-codeblocks .hljs-emphasis,
+.better-codeblocks .hljs-quote {
+  color: #df5000;
+}
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-type {
+  color: #d73a49;
+}
+
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-attribute {
+  color: #0086b3;
+}
+
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-name {
+  color: #63a35c;
+}
+
+.better-codeblocks .hljs-tag {
+  color: #333333;
+}
+
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-attr,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class,
+.better-codeblocks .hljs-selector-attr,
+.better-codeblocks .hljs-selector-pseudo {
+  color: #6f42c1;
+}
+
+.better-codeblocks .hljs-addition {
+  color: #55a532;
+  background-color: #eaffea;
+}
+
+.better-codeblocks .hljs-deletion {
+  color: #bd2c00;
+  background-color: #ffecec;
+}
+
+.better-codeblocks .hljs-link {
+  text-decoration: underline;
+}
+
+.better-codeblocks .hljs-number {
+  color: #005cc5;
+}
+
+.better-codeblocks .hljs-string {
+  color: #032f62;
+}

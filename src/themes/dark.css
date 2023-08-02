@@ -1,0 +1,63 @@
+/*
+
+Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #444;
+}
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-link {
+  color: white;
+}
+
+.better-codeblocks .hljs,
+.better-codeblocks .hljs-subst {
+  color: #ddd;
+}
+
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-addition,
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-tag,
+.better-codeblocks .hljs-template-variable {
+  color: #d88;
+}
+
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote,
+.better-codeblocks .hljs-deletion,
+.better-codeblocks .hljs-meta {
+  color: #777;
+}
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-doctag,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}

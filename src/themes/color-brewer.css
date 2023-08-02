@@ -1,0 +1,71 @@
+/*
+
+Colorbrewer theme
+Original: https://github.com/mbostock/colorbrewer-theme (c) Mike Bostock <mike@ocks.org>
+Ported by Fabrício Tavares de Oliveira
+
+*/
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fff;
+}
+
+.better-codeblocks .hljs,
+.better-codeblocks .hljs-subst {
+  color: #000;
+}
+
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-meta,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-template-tag,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-addition {
+  color: #756bb1;
+}
+
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote {
+  color: #636363;
+}
+
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-link {
+  color: #31a354;
+}
+
+.better-codeblocks .hljs-deletion,
+.better-codeblocks .hljs-variable {
+  color: #88f;
+}
+
+
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-doctag,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-tag,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class,
+.better-codeblocks .hljs-strong {
+  color: #3182bd;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-attribute {
+  color: #e6550d;
+}

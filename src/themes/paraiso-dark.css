@@ -1,0 +1,72 @@
+/*
+    Paraíso (dark)
+    Created by Jan T. Sott (http://github.com/idleberg)
+    Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
+*/
+
+/* Paraíso Comment */
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote {
+  color: #8d8687;
+}
+
+/* Paraíso Red */
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-tag,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-link,
+.better-codeblocks .hljs-meta {
+  color: #ef6155;
+}
+
+/* Paraíso Orange */
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-builtin-name,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-params,
+.better-codeblocks .hljs-deletion {
+  color: #f99b15;
+}
+
+/* Paraíso Yellow */
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-attribute {
+  color: #fec418;
+}
+
+/* Paraíso Green */
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-addition {
+  color: #48b685;
+}
+
+/* Paraíso Purple */
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag {
+  color: #815ba4;
+}
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  background: #2f1e2e;
+  color: #a39e9b;
+  padding: 0.5em;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}

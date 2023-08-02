@@ -1,0 +1,69 @@
+/* Base16 Atelier Seaside Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Seaside Comment */
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote {
+  color: #809980;
+}
+
+/* Atelier-Seaside Red */
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-tag,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-link,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class {
+  color: #e6193c;
+}
+
+/* Atelier-Seaside Orange */
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-meta,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-builtin-name,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-params {
+  color: #87711d;
+}
+
+/* Atelier-Seaside Green */
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet {
+  color: #29a329;
+}
+
+/* Atelier-Seaside Blue */
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-section {
+  color: #3d62f5;
+}
+
+/* Atelier-Seaside Purple */
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag {
+  color: #ad2bee;
+}
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  background: #131513;
+  color: #8ca68c;
+  padding: 0.5em;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}

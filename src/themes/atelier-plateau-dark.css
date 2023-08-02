@@ -1,0 +1,84 @@
+/* Base16 Atelier Plateau Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Plateau Comment */
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote {
+  color: #7e7777;
+}
+
+/* Atelier-Plateau Red */
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-tag,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-link,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class {
+  color: #ca4949;
+}
+
+/* Atelier-Plateau Orange */
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-meta,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-builtin-name,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-params {
+  color: #b45a3c;
+}
+
+/* Atelier-Plateau Green */
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet {
+  color: #4b8b8b;
+}
+
+/* Atelier-Plateau Blue */
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-section {
+  color: #7272ca;
+}
+
+/* Atelier-Plateau Purple */
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag {
+  color: #8464c4;
+}
+
+.better-codeblocks .hljs-deletion,
+.better-codeblocks .hljs-addition {
+  color: #1b1818;
+  display: inline-block;
+  width: 100%;
+}
+
+.better-codeblocks .hljs-deletion {
+  background-color: #ca4949;
+}
+
+.better-codeblocks .hljs-addition {
+  background-color: #4b8b8b;
+}
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  background: #1b1818;
+  color: #8a8585;
+  padding: 0.5em;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}

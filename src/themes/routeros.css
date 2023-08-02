@@ -1,0 +1,108 @@
+/*
+
+ highlight.js style for Microtik RouterOS script
+
+*/
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+}
+
+/* Base color: saturation 0; */
+
+.better-codeblocks .hljs,
+.better-codeblocks .hljs-subst {
+  color: #444;
+}
+
+.better-codeblocks .hljs-comment {
+  color: #888888;
+}
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-meta-keyword,
+.better-codeblocks .hljs-doctag,
+.better-codeblocks .hljs-name {
+  font-weight: bold;
+}
+
+.better-codeblocks .hljs-attribute {
+  color: #0E9A00;
+}    
+
+.better-codeblocks .hljs-function {
+  color: #99069A;
+}
+
+.better-codeblocks .hljs-builtin-name {
+  color: #99069A;
+}
+
+/* User color: hue: 0 */
+
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class,
+.better-codeblocks .hljs-quote,
+.better-codeblocks .hljs-template-tag,
+.better-codeblocks .hljs-deletion {
+  color: #880000;
+}
+
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-link,
+.better-codeblocks .hljs-selector-attr,
+.better-codeblocks .hljs-selector-pseudo {
+  color: #BC6060;
+}
+
+
+/* Language color: hue: 90; */
+
+.better-codeblocks .hljs-literal {
+  color: #78A960;
+}
+
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-code,
+.better-codeblocks .hljs-addition {
+  color: #0C9A9A;
+}
+
+
+/* Meta color: hue: 200 */
+
+.better-codeblocks .hljs-meta {
+  color: #1f7199;
+}
+
+.better-codeblocks .hljs-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}

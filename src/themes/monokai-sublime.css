@@ -1,0 +1,83 @@
+/*
+
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
+
+*/
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #23241f;
+}
+
+.better-codeblocks .hljs,
+.better-codeblocks .hljs-tag,
+.better-codeblocks .hljs-subst {
+  color: #f8f8f2;
+}
+
+.better-codeblocks .hljs-strong,
+.better-codeblocks .hljs-emphasis {
+  color: #a8a8a2;
+}
+
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-quote,
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-regexp,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-link {
+  color: #ae81ff;
+}
+
+.better-codeblocks .hljs-code,
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-selector-class {
+  color: #a6e22e;
+}
+
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-attr {
+  color: #f92672;
+}
+
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-attribute {
+  color: #66d9ef;
+}
+
+.better-codeblocks .hljs-params,
+.better-codeblocks .hljs-class .better-codeblocks .hljs-title {
+  color: #f8f8f2;
+}
+
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-builtin-name,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-attr,
+.better-codeblocks .hljs-selector-pseudo,
+.better-codeblocks .hljs-addition,
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-template-variable {
+  color: #e6db74;
+}
+
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-deletion,
+.better-codeblocks .hljs-meta {
+  color: #75715e;
+}

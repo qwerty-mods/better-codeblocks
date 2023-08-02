@@ -1,0 +1,73 @@
+/*
+Date: 17.V.2011
+Author: pumbur <pumbur@pumbur.net>
+*/
+
+.better-codeblocks {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222;
+}
+
+.better-codeblocks .hljs,
+.better-codeblocks .hljs-subst {
+  color: #aaa;
+}
+
+.better-codeblocks .hljs-section {
+  color: #fff;
+}
+
+.better-codeblocks .hljs-comment,
+.better-codeblocks .hljs-quote,
+.better-codeblocks .hljs-meta {
+  color: #444;
+}
+
+.better-codeblocks .hljs-string,
+.better-codeblocks .hljs-symbol,
+.better-codeblocks .hljs-bullet,
+.better-codeblocks .hljs-regexp {
+  color: #ffcc33;
+}
+
+.better-codeblocks .hljs-number,
+.better-codeblocks .hljs-addition {
+  color: #00cc66;
+}
+
+.better-codeblocks .hljs-built_in,
+.better-codeblocks .hljs-builtin-name,
+.better-codeblocks .hljs-literal,
+.better-codeblocks .hljs-type,
+.better-codeblocks .hljs-template-variable,
+.better-codeblocks .hljs-attribute,
+.better-codeblocks .hljs-link {
+  color: #32aaee;
+}
+
+.better-codeblocks .hljs-keyword,
+.better-codeblocks .hljs-selector-tag,
+.better-codeblocks .hljs-name,
+.better-codeblocks .hljs-selector-id,
+.better-codeblocks .hljs-selector-class {
+  color: #6644aa;
+}
+
+.better-codeblocks .hljs-title,
+.better-codeblocks .hljs-variable,
+.better-codeblocks .hljs-deletion,
+.better-codeblocks .hljs-template-tag {
+  color: #bb1166;
+}
+
+.better-codeblocks .hljs-section,
+.better-codeblocks .hljs-doctag,
+.better-codeblocks .hljs-strong {
+  font-weight: bold;
+}
+
+.better-codeblocks .hljs-emphasis {
+  font-style: italic;
+}
