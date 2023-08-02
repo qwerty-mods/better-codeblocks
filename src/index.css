@@ -17,6 +17,7 @@
   text-indent: 0;
   white-space: pre-wrap;
   background: transparent;
+  color: "#FFF"; /* default color in case theme doesn't do it */
   border: none;
 }
 
