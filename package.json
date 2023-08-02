@@ -1,15 +1,15 @@
 {
   "name": "better-codeblocks",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Improves the codeblocks",
   "engines": {
     "node": ">=18.0.0",
     "pnpm": ">=8.0.0"
   },
   "scripts": {
-    "build": "node scripts/creplugged.mjs build plugin",
-    "watch": "node scripts/creplugged.mjs build plugin --watch",
-    "bundle": "node scripts/creplugged.mjs bundle plugin",
+    "build": "node scripts/creplugged.mjs build",
+    "watch": "node scripts/creplugged.mjs build --watch",
+    "bundle": "node scripts/creplugged.mjs bundle",
     "check": "tsc --noEmit",
     "prettier:check": "prettier ./src --check",
     "eslint:check": "eslint ./src",
@@ -35,11 +35,9 @@
     "replugged": "^4.5.1",
     "typescript": "^4.8.4",
     "@electron/asar": "^3.2.4",
-    "@parcel/core": "^2.9.3",
     "chalk": "^5.3.0",
     "esbuild": "^0.16.17",
     "update-notifier": "^6.0.2",
-    "ws": "^8.13.0",
     "yargs": "^17.7.2"
   },
   "dependencies": {
