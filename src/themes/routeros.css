@@ -8,7 +8,7 @@
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #F0F0F0;
+  background: #f0f0f0;
 }
 
 /* Base color: saturation 0; */
@@ -31,15 +31,15 @@
 }
 
 .better-codeblocks .hljs-attribute {
-  color: #0E9A00;
-}    
+  color: #0e9a00;
+}
 
 .better-codeblocks .hljs-function {
-  color: #99069A;
+  color: #99069a;
 }
 
 .better-codeblocks .hljs-builtin-name {
-  color: #99069A;
+  color: #99069a;
 }
 
 /* User color: hue: 0 */
@@ -68,23 +68,21 @@
 .better-codeblocks .hljs-link,
 .better-codeblocks .hljs-selector-attr,
 .better-codeblocks .hljs-selector-pseudo {
-  color: #BC6060;
+  color: #bc6060;
 }
-
 
 /* Language color: hue: 90; */
 
 .better-codeblocks .hljs-literal {
-  color: #78A960;
+  color: #78a960;
 }
 
 .better-codeblocks .hljs-built_in,
 .better-codeblocks .hljs-bullet,
 .better-codeblocks .hljs-code,
 .better-codeblocks .hljs-addition {
-  color: #0C9A9A;
+  color: #0c9a9a;
 }
-
 
 /* Meta color: hue: 200 */
 
@@ -95,7 +93,6 @@
 .better-codeblocks .hljs-meta-string {
   color: #4d99bf;
 }
-
 
 /* Misc effects */
 

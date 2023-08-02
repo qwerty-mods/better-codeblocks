@@ -17,28 +17,27 @@ btn.addEventListener('click', () => {
     count += 1
     render()
   }
-})`
+})`;
 
 export function Settings(): React.ReactElement {
   return (
     <>
-      <Codeblock
-        lang="js"
-        code={previewData}
-      ></Codeblock>
-      <br/>
+      <Codeblock lang="js" code={previewData}></Codeblock>
+      <br />
       <SelectItem
-        options={themes.map(theme => { 
-          return { label: theme, value: theme }
+        options={themes.map((theme) => {
+          return { label: theme, value: theme };
         })}
-        onChange={theme => {
+        onChange={(theme) => {
           cfg.set("theme", theme);
 
           const themeStylesheet = document.getElementById("hljs-theme") as HTMLLinkElement;
-          if (themeStylesheet) themeStylesheet.href = `replugged://plugin/dev.kingfish.BetterCodeblocks/themes/${theme}.css`;
+          if (themeStylesheet)
+            themeStylesheet.href = `replugged://plugin/dev.kingfish.BetterCodeblocks/themes/${theme}.css`;
         }}
-        isSelected={theme => cfg.get("theme") === theme}
-      >Preferred Theme</SelectItem>
+        isSelected={(theme) => cfg.get("theme") === theme}>
+        Preferred Theme
+      </SelectItem>
     </>
   );
 }

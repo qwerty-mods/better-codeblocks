@@ -89,11 +89,11 @@
   .better-codeblocks .hljs-symbol,
   .better-codeblocks .hljs-type,
   .better-codeblocks .hljs-quote {
-        color: highlight;
-    }
+    color: highlight;
+  }
 
-    .better-codeblocks .hljs-keyword,
-    .better-codeblocks .hljs-selector-tag {
-        font-weight: bold;
-    }
+  .better-codeblocks .hljs-keyword,
+  .better-codeblocks .hljs-selector-tag {
+    font-weight: bold;
+  }
 }

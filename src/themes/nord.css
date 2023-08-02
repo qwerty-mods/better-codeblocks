@@ -14,33 +14,33 @@
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #2E3440;
+  background: #2e3440;
 }
 
 .better-codeblocks .hljs,
 .better-codeblocks .hljs-subst {
-  color: #D8DEE9;
+  color: #d8dee9;
 }
 
 .better-codeblocks .hljs-selector-tag {
-  color: #81A1C1;
+  color: #81a1c1;
 }
 
 .better-codeblocks .hljs-selector-id {
-  color: #8FBCBB;
+  color: #8fbcbb;
   font-weight: bold;
 }
 
 .better-codeblocks .hljs-selector-class {
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 .better-codeblocks .hljs-selector-attr {
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 .better-codeblocks .hljs-selector-pseudo {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .better-codeblocks .hljs-addition {
@@ -53,53 +53,53 @@
 
 .better-codeblocks .hljs-built_in,
 .better-codeblocks .hljs-type {
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 .better-codeblocks .hljs-class {
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 .better-codeblocks .hljs-function {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .better-codeblocks .hljs-function > .better-codeblocks .hljs-title {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .better-codeblocks .hljs-keyword,
 .better-codeblocks .hljs-literal,
 .better-codeblocks .hljs-symbol {
-  color: #81A1C1;
+  color: #81a1c1;
 }
 
 .better-codeblocks .hljs-number {
-  color: #B48EAD;
+  color: #b48ead;
 }
 
 .better-codeblocks .hljs-regexp {
-  color: #EBCB8B;
+  color: #ebcb8b;
 }
 
 .better-codeblocks .hljs-string {
-  color: #A3BE8C;
+  color: #a3be8c;
 }
 
 .better-codeblocks .hljs-title {
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 .better-codeblocks .hljs-params {
-  color: #D8DEE9;
+  color: #d8dee9;
 }
 
 .better-codeblocks .hljs-bullet {
-  color: #81A1C1;
+  color: #81a1c1;
 }
 
 .better-codeblocks .hljs-code {
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 .better-codeblocks .hljs-emphasis {
@@ -107,7 +107,7 @@
 }
 
 .better-codeblocks .hljs-formula {
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 .better-codeblocks .hljs-strong {
@@ -119,191 +119,191 @@
 }
 
 .better-codeblocks .hljs-quote {
-  color: #4C566A;
+  color: #4c566a;
 }
 
 .better-codeblocks .hljs-comment {
-  color: #4C566A;
+  color: #4c566a;
 }
 
 .better-codeblocks .hljs-doctag {
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 .better-codeblocks .hljs-meta,
 .better-codeblocks .hljs-meta-keyword {
-  color: #5E81AC;
+  color: #5e81ac;
 }
 
 .better-codeblocks .hljs-meta-string {
-  color: #A3BE8C;
+  color: #a3be8c;
 }
 
 .better-codeblocks .hljs-attr {
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 .better-codeblocks .hljs-attribute {
-  color: #D8DEE9;
+  color: #d8dee9;
 }
 
 .better-codeblocks .hljs-builtin-name {
-  color: #81A1C1;
+  color: #81a1c1;
 }
 
 .better-codeblocks .hljs-name {
-  color: #81A1C1;
+  color: #81a1c1;
 }
 
 .better-codeblocks .hljs-section {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .better-codeblocks .hljs-tag {
-  color: #81A1C1;
+  color: #81a1c1;
 }
 
 .better-codeblocks .hljs-variable {
-  color: #D8DEE9;
+  color: #d8dee9;
 }
 
 .better-codeblocks .hljs-template-variable {
-  color: #D8DEE9;
+  color: #d8dee9;
 }
 
 .better-codeblocks .hljs-template-tag {
-  color: #5E81AC;
+  color: #5e81ac;
 }
 
 .abnf .better-codeblocks .hljs-attribute {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .abnf .better-codeblocks .hljs-symbol {
-  color: #EBCB8B;
+  color: #ebcb8b;
 }
 
 .apache .better-codeblocks .hljs-attribute {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .apache .better-codeblocks .hljs-section {
-  color: #81A1C1;
+  color: #81a1c1;
 }
 
 .arduino .better-codeblocks .hljs-built_in {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .aspectj .better-codeblocks .hljs-meta {
-  color: #D08770;
+  color: #d08770;
 }
 
 .aspectj > .better-codeblocks .hljs-title {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .bnf .better-codeblocks .hljs-attribute {
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 .clojure .better-codeblocks .hljs-name {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .clojure .better-codeblocks .hljs-symbol {
-  color: #EBCB8B;
+  color: #ebcb8b;
 }
 
 .coq .better-codeblocks .hljs-built_in {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .cpp .better-codeblocks .hljs-meta-string {
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 .css .better-codeblocks .hljs-built_in {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .css .better-codeblocks .hljs-keyword {
-  color: #D08770;
+  color: #d08770;
 }
 
 .diff .better-codeblocks .hljs-meta {
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 .ebnf .better-codeblocks .hljs-attribute {
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 .glsl .better-codeblocks .hljs-built_in {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .groovy .better-codeblocks .hljs-meta:not(:first-child) {
-  color: #D08770;
+  color: #d08770;
 }
 
 .haxe .better-codeblocks .hljs-meta {
-  color: #D08770;
+  color: #d08770;
 }
 
 .java .better-codeblocks .hljs-meta {
-  color: #D08770;
+  color: #d08770;
 }
 
 .ldif .better-codeblocks .hljs-attribute {
-  color: #8FBCBB;
+  color: #8fbcbb;
 }
 
 .lisp .better-codeblocks .hljs-name {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .lua .better-codeblocks .hljs-built_in {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .moonscript .better-codeblocks .hljs-built_in {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .nginx .better-codeblocks .hljs-attribute {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .nginx .better-codeblocks .hljs-section {
-  color: #5E81AC;
+  color: #5e81ac;
 }
 
 .pf .better-codeblocks .hljs-built_in {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .processing .better-codeblocks .hljs-built_in {
-  color: #88C0D0;
+  color: #88c0d0;
 }
 
 .scss .better-codeblocks .hljs-keyword {
-  color: #81A1C1;
+  color: #81a1c1;
 }
 
 .stylus .better-codeblocks .hljs-keyword {
-  color: #81A1C1;
+  color: #81a1c1;
 }
 
 .swift .better-codeblocks .hljs-meta {
-  color: #D08770;
+  color: #d08770;
 }
 
 .vim .better-codeblocks .hljs-built_in {
-  color: #88C0D0;
+  color: #88c0d0;
   font-style: italic;
 }
 
 .yaml .better-codeblocks .hljs-meta {
-  color: #D08770;
+  color: #d08770;
 }

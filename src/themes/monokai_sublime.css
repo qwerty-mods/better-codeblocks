@@ -17,8 +17,7 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
 .css .better-codeblocks .hljs-rule,
 .css .better-codeblocks .hljs-value,
 .aspectj .better-codeblocks .hljs-function,
-.css .better-codeblocks .hljs-function
-.better-codeblocks .hljs-preprocessor,
+.css .better-codeblocks .hljs-function .better-codeblocks .hljs-preprocessor,
 .better-codeblocks .hljs-pragma {
   color: #f8f8f2;
 }

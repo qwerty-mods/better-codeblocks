@@ -8,9 +8,8 @@ Based on Jesse Leite's Atom syntax theme 'An Old Hope' – https://github.com/Je
 
 /* Death Star Comment */
 .better-codeblocks .hljs-comment,
-.better-codeblocks .hljs-quote 
-{
-  color: #B6B18B;
+.better-codeblocks .hljs-quote {
+  color: #b6b18b;
 }
 
 /* Darth Vader */
@@ -21,9 +20,8 @@ Based on Jesse Leite's Atom syntax theme 'An Old Hope' – https://github.com/Je
 .better-codeblocks .hljs-selector-id,
 .better-codeblocks .hljs-selector-class,
 .better-codeblocks .hljs-regexp,
-.better-codeblocks .hljs-deletion 
-{
-  color: #EB3C54;
+.better-codeblocks .hljs-deletion {
+  color: #eb3c54;
 }
 
 /* Threepio */
@@ -34,56 +32,48 @@ Based on Jesse Leite's Atom syntax theme 'An Old Hope' – https://github.com/Je
 .better-codeblocks .hljs-type,
 .better-codeblocks .hljs-params,
 .better-codeblocks .hljs-meta,
-.better-codeblocks .hljs-link 
-{
-  color: #E7CE56;
+.better-codeblocks .hljs-link {
+  color: #e7ce56;
 }
 
 /* Luke Skywalker */
-.better-codeblocks .hljs-attribute 
-{
-  color: #EE7C2B;
+.better-codeblocks .hljs-attribute {
+  color: #ee7c2b;
 }
 
 /* Obi Wan Kenobi */
 .better-codeblocks .hljs-string,
 .better-codeblocks .hljs-symbol,
 .better-codeblocks .hljs-bullet,
-.better-codeblocks .hljs-addition 
-{
-  color: #4FB4D7;
+.better-codeblocks .hljs-addition {
+  color: #4fb4d7;
 }
 
 /* Yoda */
 .better-codeblocks .hljs-title,
-.better-codeblocks .hljs-section 
-{
-  color: #78BB65;
+.better-codeblocks .hljs-section {
+  color: #78bb65;
 }
 
 /* Mace Windu */
 .better-codeblocks .hljs-keyword,
-.better-codeblocks .hljs-selector-tag 
-{
-  color: #B45EA4;
+.better-codeblocks .hljs-selector-tag {
+  color: #b45ea4;
 }
 
 /* Millenium Falcon */
-.better-codeblocks 
-{
+.better-codeblocks {
   display: block;
   overflow-x: auto;
-  background: #1C1D21;
+  background: #1c1d21;
   color: #c0c5ce;
   padding: 0.5em;
 }
 
-.better-codeblocks .hljs-emphasis 
-{
+.better-codeblocks .hljs-emphasis {
   font-style: italic;
 }
 
-.better-codeblocks .hljs-strong 
-{
+.better-codeblocks .hljs-strong {
   font-weight: bold;
 }

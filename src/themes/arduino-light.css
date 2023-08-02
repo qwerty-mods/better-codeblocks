@@ -8,7 +8,7 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .better-codeblocks .hljs,
@@ -21,7 +21,7 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 .better-codeblocks .hljs-selector-tag,
 .better-codeblocks .hljs-doctag,
 .better-codeblocks .hljs-name {
-  color: #00979D;
+  color: #00979d;
 }
 
 .better-codeblocks .hljs-built_in,
@@ -29,7 +29,7 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 .better-codeblocks .hljs-bullet,
 .better-codeblocks .hljs-code,
 .better-codeblocks .hljs-addition {
-  color: #D35400;
+  color: #d35400;
 }
 
 .better-codeblocks .hljs-regexp,
@@ -39,7 +39,7 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 .better-codeblocks .hljs-link,
 .better-codeblocks .hljs-selector-attr,
 .better-codeblocks .hljs-selector-pseudo {
-  color: #00979D;
+  color: #00979d;
 }
 
 .better-codeblocks .hljs-type,
@@ -49,7 +49,7 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 .better-codeblocks .hljs-quote,
 .better-codeblocks .hljs-template-tag,
 .better-codeblocks .hljs-deletion {
-  color: #005C5F;
+  color: #005c5f;
 }
 
 .better-codeblocks .hljs-title,
@@ -59,11 +59,11 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 }
 
 .better-codeblocks .hljs-comment {
-  color: rgba(149,165,166,.8);
+  color: rgba(149, 165, 166, 0.8);
 }
 
 .better-codeblocks .hljs-meta-keyword {
-  color: #728E00;
+  color: #728e00;
 }
 
 .better-codeblocks .hljs-meta {
@@ -79,9 +79,9 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 }
 
 .better-codeblocks .hljs-function {
-  color: #728E00;
+  color: #728e00;
 }
 
 .better-codeblocks .hljs-number {
-  color: #8A7B52;  
+  color: #8a7b52;
 }

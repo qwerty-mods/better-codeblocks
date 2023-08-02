@@ -12,7 +12,6 @@ Style with support for rainbow parens
   color: #d1d9e1;
 }
 
-
 .better-codeblocks .hljs-comment,
 .better-codeblocks .hljs-quote {
   color: #969896;
@@ -50,7 +49,7 @@ Style with support for rainbow parens
 .better-codeblocks .hljs-template-variable,
 .better-codeblocks .hljs-selector-id,
 .better-codeblocks .hljs-class .better-codeblocks .hljs-title {
-   color: #ffcc66;
+  color: #ffcc66;
 }
 
 .better-codeblocks .hljs-section,

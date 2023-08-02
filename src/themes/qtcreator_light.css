@@ -4,7 +4,6 @@ Qt Creator light color scheme
 
 */
 
-
 .better-codeblocks {
   display: block;
   overflow-x: auto;
@@ -32,8 +31,7 @@ Qt Creator light color scheme
   color: #000080;
 }
 
-.better-codeblocks .hljs-code
-.better-codeblocks .hljs-selector-class {
+.better-codeblocks .hljs-code .better-codeblocks .hljs-selector-class {
   color: #800080;
 }
 
@@ -59,7 +57,7 @@ Qt Creator light color scheme
 .better-codeblocks .hljs-variable,
 .better-codeblocks .hljs-params,
 .better-codeblocks .hljs-class .better-codeblocks .hljs-title {
-  color: #0055AF;
+  color: #0055af;
 }
 
 .better-codeblocks .hljs-string,

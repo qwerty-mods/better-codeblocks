@@ -51,7 +51,7 @@ SOFTWARE.
   color: #ff5874;
 }
 .better-codeblocks .hljs-number {
-  color: #F78C6C;
+  color: #f78c6c;
 }
 .better-codeblocks .hljs-regexp {
   color: #5ca7e4;
@@ -69,10 +69,10 @@ SOFTWARE.
   color: #ffcb8b;
 }
 .better-codeblocks .hljs-function {
-  color: #82AAFF;
+  color: #82aaff;
 }
 .better-codeblocks .hljs-title {
-  color: #DCDCAA;
+  color: #dcdcaa;
   font-style: italic;
 }
 .better-codeblocks .hljs-params {
@@ -121,7 +121,7 @@ SOFTWARE.
   color: #d9f5dd;
 }
 .better-codeblocks .hljs-code {
-  color: #80CBC4;
+  color: #80cbc4;
 }
 .better-codeblocks .hljs-emphasis {
   color: #c792ea;
@@ -177,6 +177,6 @@ SOFTWARE.
 }
 
 .better-codeblocks .hljs-deletion {
-  color: #EF535090;
+  color: #ef535090;
   font-style: italic;
 }

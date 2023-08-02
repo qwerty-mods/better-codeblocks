@@ -9,36 +9,36 @@ GML Theme - Meseta <meseta@gmail.com>
   overflow-x: auto;
   padding: 0.5em;
   background: #222222;
-  color: #C0C0C0;
+  color: #c0c0c0;
 }
 
 .better-codeblocks .hljs-keywords {
-  color: #FFB871;
+  color: #ffb871;
   font-weight: bold;
 }
 
 .better-codeblocks .hljs-built_in {
-  color: #FFB871;
+  color: #ffb871;
 }
 
 .better-codeblocks .hljs-literal {
-  color: #FF8080;
+  color: #ff8080;
 }
 
 .better-codeblocks .hljs-symbol {
-  color: #58E55A;
+  color: #58e55a;
 }
 
 .better-codeblocks .hljs-comment {
-  color: #5B995B;
+  color: #5b995b;
 }
 
 .better-codeblocks .hljs-string {
-  color: #FFFF00;
+  color: #ffff00;
 }
 
 .better-codeblocks .hljs-number {
-  color: #FF8080;
+  color: #ff8080;
 }
 
 .better-codeblocks .hljs-attribute,
@@ -66,7 +66,7 @@ GML Theme - Meseta <meseta@gmail.com>
 .better-codeblocks .hljs-meta-keyword,
 .better-codeblocks .hljs-meta,
 .better-codeblocks .hljs-subst {
-  color: #C0C0C0;
+  color: #c0c0c0;
 }
 
 .better-codeblocks .hljs-emphasis {

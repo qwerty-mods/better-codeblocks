@@ -47,7 +47,7 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
 .better-codeblocks .hljs-literal,
 .better-codeblocks .hljs-deletion,
 .better-codeblocks .hljs-link {
- color: #cc6666
+  color: #cc6666;
 }
 
 /*color: fg_green*/
@@ -64,7 +64,7 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
 .better-codeblocks .hljs-attribute,
 .better-codeblocks .hljs-code,
 .better-codeblocks .hljs-selector-id {
- color: #b294bb;
+  color: #b294bb;
 }
 
 /*color: fg_blue*/
@@ -72,7 +72,7 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
 .better-codeblocks .hljs-selector-tag,
 .better-codeblocks .hljs-bullet,
 .better-codeblocks .hljs-tag {
- color: #81a2be;
+  color: #81a2be;
 }
 
 /*color: fg_aqua*/
