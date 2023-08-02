@@ -1,28 +1,33 @@
-import { components } from "replugged";
+import { common, components } from "replugged";
 import { cfg } from ".";
 
 import themes from "./themes.json";
 import Codeblock from "./Codeblock";
 
-const { SelectItem } = components;
+const { React } = common;
+const { SelectItem, ErrorBoundary } = components;
 
-const previewData = `const btn = document.getElementById('btn')
-let count = 0
-function render() {
-  btn.innerText = \`Count: \${count}\`
-}
-btn.addEventListener('click', () => {
-  // Count from 1 to 10.
-  if (count < 10) {
-    count += 1
-    render()
-  }
-})`;
+import previews from "./previews.json";
+console.log(previews);
 
 export function Settings(): React.ReactElement {
+  const [ previewID, setPreviewID ] = React.useState(0);
+
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      setPreviewID(prevID => (prevID + 1) % previews.length);
+    }, 10e3);
+
+    return () => {
+      clearInterval(interval);
+    }
+  }, []);
+
   return (
     <>
-      <Codeblock lang="js" code={previewData}></Codeblock>
+      <ErrorBoundary>
+        <Codeblock lang={previews[previewID].lang} code={previews[previewID].code}></Codeblock>
+      </ErrorBoundary>
       <br />
       <SelectItem
         options={themes.map((theme) => {

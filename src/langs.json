@@ -75,7 +75,8 @@
   },
   {
     "name": "Crystal",
-    "id": "crystal"
+    "id": "crystal",
+    "devicon": "crystal-original"
   },
   {
     "name": "C#",
@@ -94,7 +95,8 @@
   },
   {
     "name": "Dart",
-    "id": "dart"
+    "id": "dart",
+    "devicon": "dart-plain"
   },
   {
     "name": "Diff",
@@ -128,11 +130,13 @@
   },
   {
     "name": "Git Commit",
-    "id": "git-commit"
+    "id": "git-commit",
+    "devicon": "git"
   },
   {
     "name": "Git Rebase",
-    "id": "git-rebase"
+    "id": "git-rebase",
+    "devicon": "git"
   },
   {
     "name": "GNU Plot",
@@ -141,7 +145,8 @@
   {
     "name": "GDScript",
     "id": "gdscript",
-    "aliases": ["godot", "gds", "gd"]
+    "aliases": ["godot", "gds", "gd"],
+    "devicon": "godot-plain"
   },
   {
     "name": "Go",
@@ -150,12 +155,13 @@
   },
   {
     "name": "GraphQL",
-    "id": "graphql"
+    "id": "graphql",
+    "devicon": "graphql-plain"
   },
   {
     "name": "Groovy",
     "id": "groovy",
-    "icon": "groovy-plain"
+    "devicon": "groovy-plain"
   },
   {
     "name": "Hack",
@@ -193,7 +199,7 @@
   {
     "name": "HTML",
     "id": "html",
-    "icon": "html5-plain"
+    "devicon": "html5-plain"
   },
   {
     "name": "HTTP",
@@ -249,6 +255,7 @@
   {
     "name": "Julia",
     "id": "julia",
+    "devicon": "julia-plain",
     "aliases": ["jl"]
   },
   {
@@ -260,6 +267,7 @@
   {
     "name": "LaTeX",
     "id": "latex",
+    "devicon": "latex-original",
     "aliases": ["tex"]
   },
   {
@@ -277,7 +285,8 @@
   },
   {
     "name": "Lua",
-    "id": "lua"
+    "id": "lua",
+    "devicon": "lua-plain"
   },
   {
     "name": "Luau",
@@ -290,6 +299,7 @@
   {
     "name": "Markdown",
     "id": "markdown",
+    "devicon": "markdown-original",
     "aliases": ["md"]
   },
   {
@@ -320,7 +330,9 @@
   },
   {
     "name": "Nix",
-    "id": "nix"
+    "id": "nix",
+    "devicon": "nixos-plain",
+    "aliases": ["nixos"]
   },
   {
     "name": "Objective C",
@@ -344,7 +356,8 @@
   },
   {
     "name": "Perl",
-    "id": "perl"
+    "id": "perl",
+    "devicon": "perl-plain"
   },
   {
     "name": "Raku",
@@ -369,6 +382,12 @@
   {
     "name": "PostCSS",
     "id": "postcss"
+  },
+  {
+    "name": "PostgreSQL",
+    "id": "postgresql",
+    "devicon": "postgresql-plain",
+    "aliases": ["postgres"]
   },
   {
     "name": "PowerShell",
@@ -470,7 +489,8 @@
   },
   {
     "name": "SQL",
-    "id": "sql"
+    "id": "sql",
+    "devicon": "mysql-plain"
   },
   {
     "name": "SSH Config",
