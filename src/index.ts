@@ -1,4 +1,4 @@
-import { Injector, common, components, settings } from "replugged";
+import { Injector, common, components, plugins, settings } from "replugged";
 import Codeblock from "./Codeblock";
 
 const { parser, React } = common;
@@ -21,9 +21,9 @@ export function start(): void {
   const themeStylesheet = document.createElement("link");
   themeStylesheet.rel = "stylesheet";
   themeStylesheet.id = "hljs-theme";
-  themeStylesheet.href = `replugged://plugin/dev.kingfish.BetterCodeblocks/themes/${cfg.get(
-    "theme",
-  )}.css`;
+  themeStylesheet.href = `replugged://plugin/${
+    plugins.plugins.get("dev.kingfish.BetterCodeblocks")!.path
+  }/themes/${cfg.get("theme")}.css`;
   document.head.appendChild(themeStylesheet);
 
   injector.after(parser.defaultRules.codeBlock, "react", (args, _) => {
