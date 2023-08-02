@@ -68,7 +68,7 @@ export default function (props: { lang: string; code: string }): JSX.Element {
 
   return (
     <pre className="better-codeblocks">
-      <code>
+      <code className="hljs">
         {langName && (
           <div className="better-codeblocks-lang">
             {langName.devicon && <i className={`devicon-${langName.devicon}`} />}

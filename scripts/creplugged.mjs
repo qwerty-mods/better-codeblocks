@@ -150,7 +150,7 @@ async function buildPlugin({ watch, noInstall, production }) {
           const dest = path.join(CONFIG_PATH, "plugins", manifest.id);
           if (existsSync(dest)) rmSync(dest, { recursive: true, force: true });
           cpSync("dist", dest, { recursive: true });
-          console.log("Installed updated version");
+          // console.log("Installed updated version");
         }
       });
     },
@@ -198,7 +198,21 @@ async function buildPlugin({ watch, noInstall, production }) {
   }
 
   readdirSync("src/themes").forEach((theme) => {
-    if (!(theme.endsWith(".png") || theme.endsWith(".jpg"))) {
+    if (theme === "base16") {
+      readdirSync("src/themes/base16").forEach((theme) => {
+        targets.push(
+          esbuild.build({
+            ...common,
+            entryPoints: [`src/themes/base16/${theme}`],
+            outfile: `dist/themes/base16/${theme}`,
+            loader: {
+              ".png": "dataurl",
+              ".jpg": "dataurl",
+            }
+          })
+        )
+      });
+    } else if (!(theme.endsWith(".png") || theme.endsWith(".jpg"))) {
       targets.push(
         esbuild.build({
           ...common,

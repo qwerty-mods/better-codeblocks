@@ -1,7 +1,7 @@
 import { components, plugins } from "replugged";
 import { cfg } from ".";
 
-import themes from "./themes/themes.json";
+import themes from "./themes.json";
 import Codeblock from "./Codeblock";
 
 const { SelectItem } = components;
@@ -35,7 +35,7 @@ export function Settings(): React.ReactElement {
           if (themeStylesheet)
             themeStylesheet.href = `replugged://plugin/${
               plugins.plugins.get("dev.kingfish.BetterCodeblocks")!.path
-            }/themes/${theme}.css`;
+            }/themes/${theme}.min.css`;
         }}
         isSelected={(theme) => cfg.get("theme") === theme}>
         Preferred Theme
