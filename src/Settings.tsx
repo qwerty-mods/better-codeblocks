@@ -54,7 +54,7 @@ export function Settings(): React.ReactElement {
               .getElementsByClassName(classes.popout)[0]
               .getElementsByClassName(classes.selectedIcon)[0];
             selected.scrollIntoView(false);
-          }, 50);
+          }, 75);
         }}>
         Preferred Theme
       </SelectItem>
