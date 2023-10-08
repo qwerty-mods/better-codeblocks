@@ -35,12 +35,13 @@ function resolveLang(id: string) {
 }
 
 export default function (props: { lang: string; code: string }): JSX.Element {
-  const { lang, code } = props;
+  const { code } = props;
+  const lang = props.lang.toLowerCase();
 
   let lines;
-  let langName = resolveLang(lang);
-  if (langName) {
-    const res = highlight(lang.toLowerCase(), code);
+  const langName = resolveLang(lang);
+  if (hljs.getLanguage(lang)) {
+    const res = highlight(lang, code);
     lines = res.value
       .split("\n")
       .map((line) => <span dangerouslySetInnerHTML={{ __html: line }}></span>);
